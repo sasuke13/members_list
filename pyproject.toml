@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "djangoproject"
+version = "0.1.0"
+description = ""
+authors = ["sasuke13 <bgnydyn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0"
+djangorestframework = "^3.14.0"
+python-dotenv = "^1.0.0"
+psycopg2-binary = "^2.9.9"
+auto-dataclass = "^0.1.6"
+flake8 = "^6.1.0"
+dependency-injector = "^4.41.0"
+django-annoying = "^0.10.6"
+pytest-django = "^4.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,7 @@
+nginx/*.pem
+.idea
+venv
+.env
+__pycache__
+media/
+.pytest_cache
